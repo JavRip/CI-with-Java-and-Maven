@@ -1,4 +1,4 @@
-package com.Practica2;
+package com.practica2;
 
 public class App {
     public static void main(String[] args) {
