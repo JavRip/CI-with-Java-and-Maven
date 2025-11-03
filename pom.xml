@@ -12,7 +12,7 @@
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
   </properties>
-
+    <!-- Dependencia para pruebas unitarias (JUnit Jupiter) -->
   <dependencies>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
@@ -21,15 +21,15 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  
+
   <build>
     <plugins>
-      <!-- Plugin para compilar aunque no haya código fuente -->
+      <!-- Plugin para compilar -->
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.10.1</version>
       </plugin>
-      <!-- Plugin para generar un .jar vacío sin errores -->
+      <!-- Plugin para generar un .jar -->
       <plugin>
         <artifactId>maven-jar-plugin</artifactId>
         <version>3.3.0</version>
